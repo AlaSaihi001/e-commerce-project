@@ -133,6 +133,7 @@ header {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.1s ease-in;
+  text-decoration: none;
 }
 
 .log-in:hover {
@@ -149,11 +150,12 @@ header {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.1s ease-in;
+  text-decoration: none;
+
 }
 
 .sign-up:hover {
-  background: #eaeaea;
-  color: #FB5012;
+  background: #b53000;
 }
 
 .header-third-row {
@@ -698,3 +700,107 @@ main .second-part .new-product .desc {
   margin: 10px 0 40px;
 }
 
+.contact-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+}
+
+.contact-body h1{
+  margin-bottom: 20px;
+}
+
+.contact-body p{
+  margin-bottom: 20px;
+}
+
+.contact-form-desc{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 6%;
+  width: 47%;
+  padding: 50px 60px;
+  border: 1px #aeaeae solid;
+  border-radius: 1rem;
+}
+
+.contact-form label{
+  font-weight: 700;
+}
+
+.contact-form input{
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.contact-form textarea{
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  max-width: 100%;
+  height: 200px;
+}
+
+.contact-form button{
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #FB5012;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  margin-top: 20px;
+  width: 100px;
+  align-self: flex-end;
+}
+
+.contact-desc{
+  cursor: zoom-in;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 47%;
+  padding: 50px 60px;
+  border: none;
+  border-radius: 1rem;
+  background: #fb5012e7;
+  color: #f3f3f3;
+}
+
+.contact-desc div{
+  display: flex;
+  gap: 20px;
+}
+
+.contact-desc div i{
+  font-size: 2rem;
+  width: 30px;
+}
+
+.contact-desc div p{
+  font-size: 1.2rem;
+}
+
+.contact-desc h3{
+  margin-top: 30px;
+}
+
+.contact-desc .social-media{
+  display: flex;
+  gap: 40px;
+}
+
+.contact-desc .social-media i{
+  cursor: pointer;
+  font-size: 3rem;
+}
